@@ -1,0 +1,86 @@
+1  docker stop centos7     
+2  exit     
+3  cd /home     
+4  vi README.md     
+5  cat README.md     
+6  ls /     
+7  ls /root     
+8  cd /root     
+9  cd server_lesson    
+10  ls    
+11  mkdir linux_practice    
+12  cd linux_practice    
+13  mkdir public    
+14  cd public    
+15  touch index.php    
+16  cp index.php index_bk.php    
+17  ls    
+18  cd ..    
+19  cd ..    
+20  rename linux_practice linux_practice1    
+21  ls    
+22  docker rename linux_practice linux_practice1    
+23  rename -v linux_practice linux_practice1    
+24  rename -v linux_practice linux_practice1    
+25  rename -s linux_practice linux_practice1    
+26  rename -v linux_practice linux_practice1    
+27  rename  'linux_practice' linux_practice1    
+28  cd ..    
+29  ls    
+30  cd server_lesson/    
+31  cd linux_practice/    
+32  cd ..    
+33  cp -r linux_practice linux_practice1    
+34  ls    
+35  rm linux_practice    
+36  rm -r linux_practice    
+37  ls    
+38  cd linux_practice1    
+39  cp -r public tmp    
+40  ls    
+41  cd tmp    
+42  ls    
+43  rm index_bk.php    
+44  cd../../    
+45  cd ../../    
+46  touch README.md    
+47  vi README.md    
+48  cat README.md    
+49  ls    
+50  mkdir documents    
+51  cd documents/    
+52  touch gizumo{01..50}.md    
+53  ls    
+54  cd ../    
+55  mkdir linux_practice2    
+56  ls    
+57  cd linux_practice2    
+58  mv server_lesson/documents documents    
+59  mv /root/server_lesson/documents documents    
+60  ls    
+61  touch .gitignore    
+62  ls    
+63  mkdir trash    
+64  ls    
+65  cd trash/    
+66  rm /root/server_lesson/linux_practice2/documents/gizumo{20..40}.md gizumo{20..40}.md    
+67  mv /root/server_lesson/linux_practice2/documents/gizumo{20..40}.md gizumo{20..40}.md    
+68  ls    
+69  mv /root/server_lesson/linux_practice2/documents/gizumo2?.md gizumo2?.md    
+70  cd ..    
+71  ls    
+72  cd documents/    
+73  ls    
+74  cd ..    
+75  cd trash/    
+76  mv /root/server_lesson/linux_practice2/documents/gizumo2?.md gizumo2?.md    
+77  mv gizumo2?.md gizumo2?.md    
+78  cd ..    
+79  cd documents/    
+80  mv gizumo{20..40}.md /root/server_lesson/linux_practice2/trash/    
+81  ls    
+82  cd ..    
+83  touch .gitignore    
+84  ls    
+85  vi .gitignore    
+86  history 300
